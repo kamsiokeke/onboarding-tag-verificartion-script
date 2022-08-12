@@ -1,5 +1,5 @@
 a = open("org_ver.txt", "r")
-b = open("HH_chefnodes.txt", "r")
+b = open("onboarded_nodes.txt", "r")
 missing =[]
 
 
