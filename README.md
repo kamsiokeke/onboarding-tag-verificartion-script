@@ -35,7 +35,7 @@ cd ~/desktop; git clone https://github.com/kamsiokeke/onboarding-tag-verificarti
 > onboarded_nodes_recipies.txt is also created and populated with the recipies of the successfully onboarded instances, if blank then the associated instance was not onboarded correctly, and needs to be reonboarded.
 > chef_ver_script.py is also run and outputs a list of all instances without corresponding chef nodes.
 
-> To validate patching and backup tags, firstly us roller to assume a role in the customer account
+> To validate supprt, patching and backup tags, firstly use roller to assume a role in the customer account
     roller --profile default --account xxxxxxxxxxxxx --role CloudreachAdminRole --name <aws_account_name>
 
 ## Authors
