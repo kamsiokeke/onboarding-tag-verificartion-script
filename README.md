@@ -26,10 +26,10 @@ Cloudreach Patching Group: <custom_value>
 Cloudreach Patching Ignore: <custom_value>
 
 # Steps
-> Pull this this repo into the desktop directory and call it onboarding_verification
+> Paste the below code to pull this repo into your desktop directory and call it onboarding_verification
 cd ~/desktop; git clone https://github.com/kamsiokeke/onboarding-tag-verificartion-script.git onboarding_verification
 > Populate the org_ver.txt file with the onboarded instances names or instance ids from the associated onboarding-tracking sheet.
-> Assuming that the chef_orgs dir is located here at this path ~/repos/chef_orgs, execute the following
+> Assuming that your chef_orgs dir is located here at this path ~/repos/chef_orgs, if not modify the path in chef_checker.sh to reflect your path, then execute the following:
 ./chef_checker.sh <chef_org_name>
 > This will iterate through the instaces and check if there is a chef node for that instance and populate chef_onboarded_nodes with the output.
 > onboarded_nodes_recipies.txt is also created and populated with the recipies of the successfully onboarded instances, if blank then the associated instance was not onboarded correctly, and needs to be reonboarded.
